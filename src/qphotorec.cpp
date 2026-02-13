@@ -957,7 +957,7 @@ void QPhotorec::qphotorec_formats()
   fenetre3.setWindowTitle("QPhotoRec: "+tr("File Formats"));
 
   QLineEdit *ed_search = new QLineEdit();
-  ed_search->setPlaceholderText("Search formats");
+  ed_search->setPlaceholderText(tr("Search formats"));
   ed_search->setClearButtonEnabled(true);
 
   QDialogButtonBox buttonBox(Qt::Horizontal);
